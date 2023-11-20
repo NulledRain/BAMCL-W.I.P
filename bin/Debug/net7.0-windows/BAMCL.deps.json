@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BAMCL/1.0.0": {
+        "dependencies": {
+          "MinecraftLaunch": "2.0.1",
+          "MinecraftOAuth": "2.0.1"
+        },
+        "runtime": {
+          "BAMCL.dll": {}
+        }
+      },
+      "Flurl/3.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "3.0.7.0",
+            "fileVersion": "3.0.7.0"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "MinecraftLaunch/2.0.1": {
+        "dependencies": {
+          "Flurl.Http": "4.0.0-pre3",
+          "MinecraftLaunch.NPinyin": "1.0.0",
+          "MinecraftLaunch.PinyinConverter": "1.0.0",
+          "NbtLib": "1.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/MinecraftLaunch.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "MinecraftLaunch.NPinyin/1.0.0": {
+        "runtime": {
+          "lib/net6.0/MinecraftLaunch.NPinyin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MinecraftLaunch.PinyinConverter/1.0.0": {
+        "runtime": {
+          "lib/net6.0/PinYinConverterCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MinecraftOAuth/2.0.1": {
+        "dependencies": {
+          "Flurl.Http": "4.0.0-pre3",
+          "MinecraftLaunch": "2.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/MinecraftOAuth.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "NbtLib/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/NbtLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BAMCL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flurl/3.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3zHc8m6/yqOAedHwpFQv5VT8t0W/jkS3AVlv1Tj520KDNjUa31at0zMc3XYJy8f9qdOmUcvSUarf6G2nK1ZIg==",
+      "path": "flurl/3.0.7",
+      "hashPath": "flurl.3.0.7.nupkg.sha512"
+    },
+    "Flurl.Http/4.0.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2N01ftKNnl5dhPvEYITn+DhrPrpxL+i/725aBOJkLHAT3LdKliwnybJKDqUDVR8CbLgBf6IcfhYnaLU7fTq0dw==",
+      "path": "flurl.http/4.0.0-pre3",
+      "hashPath": "flurl.http.4.0.0-pre3.nupkg.sha512"
+    },
+    "MinecraftLaunch/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gw316b1jD8V2gAdT1j9OSMD2RpvdOWU7wiUjhXVwiwWXZK0S+lvaFH+2oVfvzXpfdXtdvE/1YjgDvCiD59buZA==",
+      "path": "minecraftlaunch/2.0.1",
+      "hashPath": "minecraftlaunch.2.0.1.nupkg.sha512"
+    },
+    "MinecraftLaunch.NPinyin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cna1CkN/jIp8k5ChyW9vfveZqbvvWKHmRJVf7R+dQ6utNR1RFPN/DTciuSWdsts1WdFO9F4kKcQymY/AeIiwnQ==",
+      "path": "minecraftlaunch.npinyin/1.0.0",
+      "hashPath": "minecraftlaunch.npinyin.1.0.0.nupkg.sha512"
+    },
+    "MinecraftLaunch.PinyinConverter/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edH81gz3+Xz19VnZ7EZtwNkhXEhnSXW06Pl3BRLKbOWhEODO5t3aWh/aYR0LOnrOg+glv6seXfgx8+bBzSjgdA==",
+      "path": "minecraftlaunch.pinyinconverter/1.0.0",
+      "hashPath": "minecraftlaunch.pinyinconverter.1.0.0.nupkg.sha512"
+    },
+    "MinecraftOAuth/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O8+ROtebwHeZNuGb0LjlK0uQwMUITrWO7olmkysi8GOYGuvMJ/BNEM1N+1LbbyFuCN75tfgN3c5Ax94hDe14uA==",
+      "path": "minecraftoauth/2.0.1",
+      "hashPath": "minecraftoauth.2.0.1.nupkg.sha512"
+    },
+    "NbtLib/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-745noQvzOXZKpkxTnpeF6ehe5StblXYGa5BqbS+rpuJAgC4b6swbunqloreukp3A7XONEolVYyfiN6CfbJ55ag==",
+      "path": "nbtlib/1.0.1",
+      "hashPath": "nbtlib.1.0.1.nupkg.sha512"
+    }
+  }
+}

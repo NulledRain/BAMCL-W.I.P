@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="resources\videos\**" />
+    <EmbeddedResource Remove="resources\videos\**" />
+    <None Remove="resources\videos\**" />
+    <Page Remove="resources\videos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="resources\wallpaper.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="resources\wallpaper.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinecraftLaunch" Version="2.0.1" />
+    <PackageReference Include="MinecraftOAuth" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
